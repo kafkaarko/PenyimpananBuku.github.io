@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.kepala{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.buku{
+    display: flex;
+    justify-content: center;
+    padding:30px
+}
+
+.one{
+    padding:30px;
+    background-color: azure;
+    border:10px solid white;
+}
+
+.konter{
+    padding:30px;
+    background-color: azure;
+    border:10px solid white;
+}
+
+#Judul{
+    height:50px;
+    width: 1050px;
+    border-radius: 15px;
+    border:none;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 1px 1px blue ;
+}
+.tabel{
+    padding:10px
+}
+
+#Penulis{
+    height:50px;
+    width: 1050px;
+    border-radius: 15px;
+    border:none;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 1px 1px blue ;
+}
+
+#Tahun{
+    height:50px;
+    width: 1050px;
+    border-radius: 15px;
+    border:none;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 1px 1px blue ;
+}
+
+.btn{
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    color:black;
+    box-shadow: 0px 0px 1px 1px green;
+    font-size: 20px;
+}
+
+.btn:hover{
+    color:white;
+    background-color: green;
+    transition: 0.5s;
+}
+
+.nama{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.cek-aja{
+    border:none;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+   background-size: cover;
+   box-shadow: 0px 0px 0px 2px blue;
+}
+
+.cek-aja:hover{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7IXJk_B53PYpEeAsQqFdp1iG05BUkRCcI_lJfJY1Dxg&s); */
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px 1px blue;
+}
+
+.buku{
+    justify-content: space-between;
+}
+
+.tombol-ulang{
+    border:none;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+   background-size: cover;
+   box-shadow: 0px 0px 0px 2px red;
+}
+
+.tombol-ulang:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px 1px red;
+}
+
+.tombol-buang{
+    border:none;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+   background-size: cover;
+   box-shadow: 0px 0px 0px 2px green;
+}
+
+.tombol-buang:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px 1px green;
+}
+
+input[type=text], input[type=text], input[type=number]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}

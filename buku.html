@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoBuku</title>
+    <link rel="stylesheet" href="buku.css">
+</head>
+<body>
+    <head>
+       <div class="kepala">
+        <h1 class="buku">TokoBukuSejahtera</h1>
+       </div>
+    </head>
+    <main>
+    <section class="one">
+        <div class="nama">
+        <h1>Masukan Buku Baru</h1>
+    </div>
+    <form action="#" class="from" id="tambahkan">
+    <div class="anak" id="add">
+        <div class="tabel">
+            <label for="Judul"> Masukan judul buku</label><br>
+         <input type="text" id="Judul" name="judul" required>
+        </div>
+        <div class="tabel">
+            <label for="Penulis">penulis buku</label><br>
+         <input type="text" id="Penulis" name="penulis" required><br>
+        </div>
+        <div class="tabel">
+            <label for="Tahun">Tahun</label><br>
+            <input type="number" id="Tahun" name="tahun" required><br>
+        </div>
+        <label for="checkbox">Sudah Dibaca</label>
+        <input type="checkbox" id="checkbox">
+        <br>
+        <br>
+        <input type="submit"
+        class="btn" value="submit" id="submit">
+    </div>
+</form>
+    </section>
+    <section class="second">
+        <div class="konter">
+            <h2 class="konterhead">
+                Belum di baca
+            </h2>
+            <div class="list-item" id="totos"></div>
+        </div>
+        <div class="konter">
+            <h2 class="konterhead">
+                sudah di baca
+            </h2>
+            <div class="list-item" id="selesai-totos"></div>
+        </div>
+    </section>
+</main>
+    <script src="buku.js"></script>
+</body>
+</html>
